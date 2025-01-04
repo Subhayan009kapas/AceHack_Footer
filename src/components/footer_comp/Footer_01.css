@@ -1,4 +1,4 @@
-/* Footer Container */
+/* Footer Section   */
 .footer {
           position: relative;
           padding: 2rem 1rem;
@@ -6,10 +6,10 @@
           color: white;
           text-align: center;
           overflow: hidden;
-          font-size: 1.2rem; /* Increased font size */
+          font-size: 1.2rem; 
         }
         
-        /* Floating Neon Shapes */
+        
         .floating-shapes {
           position: absolute;
           inset: 0;
@@ -39,7 +39,7 @@
           right: 15%;
         }
         
-        /* Footer Content */
+   
         .footer-content {
           position: relative;
           z-index: 10;
@@ -78,23 +78,23 @@
           
         }
         
-        /* Footer Links Section */
+       
         .footer-links {
           display: flex;
           justify-content: space-between;
-          gap: 2rem; /* Reduced gap between sections */
+          gap: 2rem;
           flex: 2;
           flex-wrap: wrap;
         }
         
-        /* Footer Navigation and Contact */
+       
         .footer-nav, .footer-contact, .footer-contact-us {
           flex: 1;
           text-align: left;
         }
         
         .footer-nav h3, .footer-contact h3, .footer-contact-us h3 {
-          margin-bottom: 0.5rem; /* Reduced margin between title and content */
+          margin-bottom: 0.5rem; 
         }
         
         .footer-nav ul, .footer-contact ul, .footer-contact-us ul {
@@ -103,7 +103,7 @@
         }
         
         .footer-nav ul li, .footer-contact ul li, .footer-contact-us ul li {
-          margin-bottom: 5px; /* Reduced margin between list items */
+          margin-bottom: 5px; 
           margin-top: 1rem;
         }
         
@@ -117,14 +117,14 @@
           color: white;
         }
         
-        /* Footer Social Media Icons */
+       
         .footer-contact-us {
-          margin-top: -0.5rem; /* Adjust margin to make it closer to other sections */
+          margin-top: -0.5rem; 
         }
         
         .footer-social {
           display: flex;
-          gap: 1rem; /* Maintain space between social icons */
+          gap: 1rem; 
           margin-top: 2rem;
           margin-left: 0.5vw;
         }
@@ -176,9 +176,11 @@
           background-color: azure;
           opacity: 0.3;
         }
+
+        /* Footer Section  End  */
         
 
-/* Sponsors Section */
+/* Organizing Partner  Section */
 .sponsors-section {
           padding: 4rem 1.5rem;
           background-color: #000;
